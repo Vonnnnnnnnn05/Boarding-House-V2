@@ -1,8 +1,7 @@
 <?php
-
-$servername = "mysql";
-$username = "bhuser";
-$password = "bhpass";
+$servername = "db";
+$username = "user";
+$password = "password";
 $dbname = "bhv2";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
