@@ -294,12 +294,12 @@ $total_available = $row['total_available'];
             datasets: [{
               data: [<?php echo $active_tenants; ?>, <?php echo $inactive_tenants; ?>],
               backgroundColor: [
-                'rgba(232, 15, 15, 1)',
-                'rgba(51, 255, 0, 1)'
+                'rgba(0, 255, 0, 1)',
+                'rgba(255, 0, 0, 1)'
               ],
               borderColor: [
-               'rgba(232, 15, 15, 1)',
-                'rgba(51, 255, 0, 1)'
+               'rgba(58, 232, 15, 1)',
+                'rgba(255, 0, 0, 1)'
               ],
               borderWidth: 1
             }]

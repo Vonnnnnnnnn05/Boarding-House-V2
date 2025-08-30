@@ -222,7 +222,7 @@
                               <i class="bi bi-pencil">Edit</i>
                             </button>
                             <button
-                              class="btn btn-sm btn-outline-dark me-1 w-25" data-bs-toggle="modal" data-bs-target="#deleteModal<?php echo $display['room_id']; ?>">
+                              class="btn btn-sm btn-outline-dark me-1" data-bs-toggle="modal" data-bs-target="#deleteModal<?php echo $display['room_id']; ?>">
                               <i class="bi bi-trash">Delete</i>
 
                             </button>
